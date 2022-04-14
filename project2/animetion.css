@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+    color: #24313B;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.height-vh {
+    height: 100vh;
+}
+
+.col-md-6 .col-sm-7 {
+position: relative;
+min-height: 1px;
+padding-right: 15px;
+padding-left: 15px;
+}
+.mapp-spec {
+    overflow: hidden;
+}
+.mapp-block{
+will-change: transform;
+transform: perspective(300px) rotateX(0deg) rotateY(0deg);
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.row:before {
+    display: table;
+    content: " ";
+}
+
+.col-md-12{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.tile-flow1 {
+    position: relative;
+    display: block;
+    height: 250px;
+}
+
+.tile-flow1 .first-tile {
+    position: absolute;
+    display: block;
+    left: 30px;
+    right: 30px;
+    top: 30px;
+    text-align: center;
+    bottom: 0;
+    border-top-left-radius: 244px;
+    border: 28px solid #f8f8f9;
+    border-bottom: 0;
+}
+
+.tile-flow1 .second-tile {
+    position: absolute;
+    display: block;
+    left: 58px;
+    right: 58px;
+    top: 58px;
+    text-align: center;
+    bottom: 0;
+    border-top-left-radius: 220px;
+    border: 28px solid #f1f1f3;
+    border-bottom: 0;
+}
+.panel4 .tile-flow1 .third-tile {
+    background-color: #ecc589;
+    box-shadow: inset 1px 2px 3px 0px #a0804f;
+}
+
+.tile-flow1 .third-tile {
+    position: absolute;
+    display: block;
+    left: 86px;
+    right: 86px;
+    top: 86px;
+    text-align: center;
+    bottom: 0;
+    border-top-left-radius: 200px;
+}
+
+.row:after {
+    clear: both;
+    display: table;
+    content: " ";
+
+}
+.tile-flow2 {
+    position: relative;
+    display: block;
+    height: 250px;
+}
+.tile-flow2 .first-tile {
+    position: absolute;
+    display: block;
+    left: 30px;
+    right: 30px;
+    top: 0;
+    text-align: center;
+    bottom: 0;
+    border-bottom-right-radius: 244px;
+    border: 28px solid #f8f8f9;
+    border-top: 0;
+    z-index: 1;
+}
+.tile-flow2 .second-tile {
+    position: absolute;
+    display: block;
+    left: 58px;
+    right: 58px;
+    top: 0;
+    text-align: center;
+    bottom: 28px;
+    z-index: 1;
+    border-bottom-right-radius: 214px;
+    border: 28px solid #f1f1f3;
+    border-top: 0;
+}
+.panel4 .tile-flow2 .third-tile {
+    background-color: #ecc589;
+    border-bottom-right-radius: 190px;
+    box-shadow: inset 1px -4px 3px 1px #a0804f;
+}
+.tile-flow2 .third-tile {
+    position: absolute;
+    display: block;
+    left: 86px;
+    right: 86px;
+    top: 0;
+    text-align: center;
+    bottom: 56px;
+}
+
+
+.data-titles {
+    will-change: transform;
+    transform: perspective(300px) rotateX(0deg) rotateY(0deg);
+}
+
+.panel4 .tile-flow2 .third-tile img {
+    width: 100%;
+    right: 5px;
+    position: relative;
+    margin-top: -142px;
+    animation-name: rocket-air;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+}
