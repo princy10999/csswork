@@ -1,0 +1,99 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    background: linear-gradient(#e66465, #9198e5);
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
+}
+
+.container{
+
+}
+
+.backrond{
+    width: 100%;
+    height: 357px;
+    position: relative;
+    transition: all 0.6s ease-out;
+    perspective: 1000px;
+
+}
+
+.backrond:hover{
+    transition: all 0.3s linear;
+    transform: scale(1.1);
+}
+
+.imge{
+ width: 100%;
+ height: 100%;
+ position: relative;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ text-align: center;
+ color: #fff;
+ font-size: 90px;
+ text-transform: uppercase;
+ transition: all  0.6s ease-out;
+ transform: rotateX(0deg) rotatey(0deg);
+ perspective: 1000px;
+ transform-style: preserve-3d;
+ border-radius: 40px;
+    margin-bottom: 15px;
+    background-repeat: no-repeat;
+}
+img{
+    border-radius: 40px;
+    margin-bottom: 15px;
+}
+
+/* .imge strong{
+    transform: translateZ(6px);
+} */
+
+.t-over{
+    width: 33.333%;
+    height: 33.333%;
+    position: absolute;
+    z-index: 1;
+
+}
+.t-over:nth-child(1){ left: 0; top: 0; } 
+.t-over:nth-child(2){ left: 33.333%; top: 0; } 
+.t-over:nth-child(3){ left: 66.666%; top: 0; } 
+.t-over:nth-child(4){ left: 0; top: 33.333%; } 
+.t-over:nth-child(5){ left: 33.333%; top: 33.333%; } 
+.t-over:nth-child(6){ left: 66.666%; top: 33.333%; } 
+.t-over:nth-child(7){ left: 0; top: 66.666%; } 
+.t-over:nth-child(8){ left: 33.333%; top: 66.666%; } 
+.t-over:nth-child(9){ left: 66.666%; top: 66.666%; } 
+
+.t-over:nth-child(1):hover ~ .imge{ transform:rotateX( -20deg) rotateY(20deg)}
+.t-over:nth-child(2):hover ~ .imge{ transform:rotateX( -20deg) rotateY(0deg)}
+.t-over:nth-child(3):hover ~ .imge{ transform:rotateX( -20deg) rotateY(-20deg)}
+.t-over:nth-child(4):hover ~ .imge{ transform:rotateX( 0deg) rotateY(20deg)}
+.t-over:nth-child(5):hover ~ .imge{ transform:rotateX( 0deg) rotateY(0deg)}
+.t-over:nth-child(6):hover ~ .imge{ transform:rotateX( 0deg) rotateY(-20deg)}
+.t-over:nth-child(7):hover ~ .imge{ transform:rotateX( 20deg) rotateY(20deg)}
+.t-over:nth-child(8):hover ~ .imge{ transform:rotateX( 20deg) rotateY(0deg)}
+.t-over:nth-child(9):hover ~ .imge{ transform:rotateX( 20deg) rotateY(-20deg)}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    color: #0a183d;
+    font-weight: 600;
+    line-height: 1;
+}
+h5 {
+        font-size: 18px;
+    }
+
+
+   
+   
+                                
